@@ -1,0 +1,20 @@
+{
+  "name": "dashboard-geobikes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongodb": "^4.16.0",
+    "mongoose": "^5.13.20",
+    "nodemon": "^3.0.1"
+  }
+}
