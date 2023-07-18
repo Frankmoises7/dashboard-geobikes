@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Editar Usuario</title>
+</head>
+<body>
+  <h1>Editar Usuario</h1>
+  <form method="POST" action="/users/<%= usuario._id %>/edit">
+    <div>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" value="<%= usuario.name %>" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" value="<%= usuario.email %>" required>
+    </div>
+    <button type="submit">Actualizar</button>
+  </form>
+</body>
+</html>
